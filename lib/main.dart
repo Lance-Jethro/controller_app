@@ -1,3 +1,5 @@
+import 'package:controller_app/screens/homepage.dart';
+
 import 'barrel.dart';
 
 void main() {
@@ -16,6 +18,6 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         debugShowCheckedModeBanner: false,
-        home: const Controller());
+        home: const MyHomePage());
   }
 }

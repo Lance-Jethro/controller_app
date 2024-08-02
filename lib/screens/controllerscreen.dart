@@ -1,13 +1,13 @@
 import '../barrel.dart';
 
-class Controller extends StatefulWidget {
-  const Controller({super.key});
+class ControllerScreen extends StatefulWidget {
+  const ControllerScreen({super.key});
 
   @override
-  State<Controller> createState() => _ControllerState();
+  State<ControllerScreen> createState() => _ControllerScreenState();
 }
 
-class _ControllerState extends State<Controller> {
+class _ControllerScreenState extends State<ControllerScreen> {
   void _handleButtonPress(String direction) {
     setState(() {
       // functionality ng mga buttons
